@@ -1,0 +1,10 @@
+name: seo-checker-ai-mcp
+description: "MEOK AI Labs — SEO analysis and optimization tools powered by MEOK AI Labs."
+vendor: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/CSOAI-ORG/seo-checker-ai-mcp
+license: MIT
+categories: [Marketing, SEO]
+tags: [seo, search-engine-optimization, meta-tags, keyword-analysis, page-rank]
+runtime: python
+entrypoint: server.py
