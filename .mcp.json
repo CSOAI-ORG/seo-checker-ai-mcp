@@ -1,23 +1,76 @@
 {
   "name": "seo-checker-ai-mcp",
-  "description": "MEOK AI Labs \u2014 SEO analysis and optimization tools powered by MEOK AI Labs.",
-  "vendor": "MEOK AI Labs",
-  "homepage": "https://meok.ai",
-  "repository": "https://github.com/CSOAI-ORG/seo-checker-ai-mcp",
-  "runtime": "python",
-  "entrypoint": "server.py",
+  "description": "Title analysis, meta description checking, schema markup validation, and heading analysis.",
+  "version": "1.0.0",
   "tools": [
-    "analyze_title",
-    "check_meta_description",
-    "validate_schema_markup",
-    "heading_analysis"
-  ],
-  "categories": [
-    "Marketing",
-    "SEO"
-  ],
-  "pricing": {
-    "free": "50 calls/day",
-    "pro": "$9/mo"
-  }
+    {
+      "name": "analyze_title",
+      "description": "Analyze a page title for SEO best practices.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "target_keyword": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title"
+        ]
+      }
+    },
+    {
+      "name": "check_meta_description",
+      "description": "Check a meta description for SEO best practices.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "target_keyword": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "description"
+        ]
+      }
+    },
+    {
+      "name": "validate_schema_markup",
+      "description": "Validate JSON-LD structured data/schema markup.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "json_ld": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "json_ld"
+        ]
+      }
+    },
+    {
+      "name": "heading_analysis",
+      "description": "Analyze heading structure for SEO optimization.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "html": {
+            "type": "string"
+          },
+          "target_keyword": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "html"
+        ]
+      }
+    }
+  ]
 }
