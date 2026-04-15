@@ -1,0 +1,53 @@
+{
+  "name": "seo-checker-ai",
+  "description": "Seo Checker Ai tools powered by MEOK AI Labs.",
+  "version": "1.0.0",
+  "protocol_version": "2025-11-25",
+  "publisher": {
+    "name": "MEOK AI Labs",
+    "url": "https://meok.ai",
+    "email": "nicholas@meok.ai"
+  },
+  "repository": "https://github.com/CSOAI-ORG/seo-checker-ai-mcp",
+  "license": "MIT",
+  "transport": [
+    "stdio",
+    "streamable-http"
+  ],
+  "authentication": {
+    "type": "api-key",
+    "free_tier": true,
+    "free_limit": "15 calls/day"
+  },
+  "tools": [
+    {
+      "name": "analyze_title",
+      "description": "Analyze a page title for SEO best practices."
+    },
+    {
+      "name": "check_meta_description",
+      "description": "Check a meta description for SEO best practices."
+    },
+    {
+      "name": "validate_schema_markup",
+      "description": "Validate JSON-LD structured data/schema markup."
+    },
+    {
+      "name": "heading_analysis",
+      "description": "Analyze heading structure for SEO optimization."
+    }
+  ],
+  "categories": [
+    "AI & Machine Learning",
+    "Marketing & SEO"
+  ],
+  "pricing": {
+    "free": {
+      "calls_per_day": 15
+    },
+    "pro": {
+      "price": "$29/month",
+      "url": "https://meok.ai/pricing"
+    }
+  }
+}
