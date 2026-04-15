@@ -1,6 +1,5 @@
 name: seo-checker-ai-mcp
-description: Title analysis, meta description checking, schema markup validation,
-  and heading analysis.
+description: MEOK AI Labs MCP Server
 version: 1.0.0
 tools:
 - name: analyze_title
