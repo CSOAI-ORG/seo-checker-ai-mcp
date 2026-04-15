@@ -1,24 +1,65 @@
-# SEO Checker AI MCP Server
+# Seo Checker Ai
 
-Title analysis, meta description checking, schema markup validation, and heading analysis.
+> By [MEOK AI Labs](https://meok.ai) — MEOK AI Labs MCP Server
+
+SEO Checker AI MCP Server
+
+## Installation
+
+```bash
+pip install seo-checker-ai-mcp
+```
+
+## Usage
+
+```bash
+# Run standalone
+python server.py
+
+# Or via MCP
+mcp install seo-checker-ai-mcp
+```
 
 ## Tools
 
-- **analyze_title**
-- **check_meta_description**
-- **validate_schema_markup**
-- **heading_analysis**
+### `analyze_title`
+Analyze a page title for SEO best practices.
 
-## Quick Start
+**Parameters:**
+- `title` (str)
+- `target_keyword` (str)
 
-```bash
-pip install mcp
-python server.py
-```
+### `check_meta_description`
+Check a meta description for SEO best practices.
 
-## Rate Limits
+**Parameters:**
+- `description` (str)
+- `target_keyword` (str)
 
-- Free tier: 50 calls/day per tool
-- Upgrade: https://meok.ai/pricing
+### `validate_schema_markup`
+Validate JSON-LD structured data/schema markup.
 
-Built by [MEOK AI Labs](https://meok.ai)
+**Parameters:**
+- `json_ld` (str)
+
+### `heading_analysis`
+Analyze heading structure for SEO optimization.
+
+**Parameters:**
+- `html` (str)
+- `target_keyword` (str)
+
+
+## Authentication
+
+Free tier: 15 calls/day. Upgrade at [meok.ai/pricing](https://meok.ai/pricing) for unlimited access.
+
+## Links
+
+- **Website**: [meok.ai](https://meok.ai)
+- **GitHub**: [CSOAI-ORG/seo-checker-ai-mcp](https://github.com/CSOAI-ORG/seo-checker-ai-mcp)
+- **PyPI**: [pypi.org/project/seo-checker-ai-mcp](https://pypi.org/project/seo-checker-ai-mcp/)
+
+## License
+
+MIT — MEOK AI Labs
