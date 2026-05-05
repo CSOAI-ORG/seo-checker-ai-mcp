@@ -1,65 +1,38 @@
-# Seo Checker Ai
+<div align="center">
 
-> By [MEOK AI Labs](https://meok.ai) — MEOK AI Labs MCP Server
+[![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/seo-checker-ai-mcp)](https://github.com/CSOAI-ORG/seo-checker-ai-mcp/stargazers)
 
-SEO Checker AI MCP Server
+# useoU checkerU aiU mcp
+
+**SEO Checker AI MCP Server**
+
+[![npm version](https://img.shields.io/npm/v/@meok-ai/seo-checker-ai-mcp)](https://www.npmjs.com/package/@meok-ai/seo-checker-ai-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-255+_servers-purple)](https://meok.ai)
+
+[Installation](#installation) · [Docs](https://csoai.org) · [Report Bug](https://github.com/CSOAI-ORG/seo-checker-ai-mcp/issues)
+
+</div>
+
+---
 
 ## Installation
 
 ```bash
 pip install seo-checker-ai-mcp
+# or
+npm install -g @meok-ai/seo-checker-ai-mcp
 ```
 
-## Usage
+## Quick Start
 
-```bash
-# Run standalone
-python server.py
+See the project repository for full documentation and examples.
 
-# Or via MCP
-mcp install seo-checker-ai-mcp
-```
+## Enterprise Support
 
-## Tools
-
-### `analyze_title`
-Analyze a page title for SEO best practices.
-
-**Parameters:**
-- `title` (str)
-- `target_keyword` (str)
-
-### `check_meta_description`
-Check a meta description for SEO best practices.
-
-**Parameters:**
-- `description` (str)
-- `target_keyword` (str)
-
-### `validate_schema_markup`
-Validate JSON-LD structured data/schema markup.
-
-**Parameters:**
-- `json_ld` (str)
-
-### `heading_analysis`
-Analyze heading structure for SEO optimization.
-
-**Parameters:**
-- `html` (str)
-- `target_keyword` (str)
-
-
-## Authentication
-
-Free tier: 15 calls/day. Upgrade at [meok.ai/pricing](https://meok.ai/pricing) for unlimited access.
-
-## Links
-
-- **Website**: [meok.ai](https://meok.ai)
-- **GitHub**: [CSOAI-ORG/seo-checker-ai-mcp](https://github.com/CSOAI-ORG/seo-checker-ai-mcp)
-- **PyPI**: [pypi.org/project/seo-checker-ai-mcp](https://pypi.org/project/seo-checker-ai-mcp/)
+- 📧 nicholas@csoai.org
+- 🌐 [CSOAI.org](https://csoai.org)
 
 ## License
 
-MIT — MEOK AI Labs
+MIT © [CSOAI](https://csoai.org)
