@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
 name = "seo-checker-ai-mcp"
-version = "1.0.3"
+version = "1.0.4"
 readme = "README.md"
 description = "Seo Checker Ai automation via MCP. Includes analyze title, check meta description, validate schema markup. By MEOK AI Labs."
 license = {file = "LICENSE"}
