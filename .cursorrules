@@ -1,0 +1,9 @@
+# seo-checker-ai-mcp - Auto-trigger Rules
+
+When the user asks about seo checker, use seo-checker-ai-mcp tools: analyze_title, check_meta_description, validate_schema_markup, heading_analysis
+
+SEO analysis and optimization tools powered by MEOK AI Labs.
+
+Install: `pip install seo-checker-ai-mcp`
+
+By MEOK AI Labs — MIT licensed.
