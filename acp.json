@@ -1,0 +1,22 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "seo-checker-ai-mcp",
+    "description": "Seo Checker Ai MCP Server by MEOK AI Labs",
+    "version": "1.0.6",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "seo-checker-ai-mcp"
+      }
+    ],
+    "capabilities": [
+      "analyze_title",
+      "check_meta_description",
+      "validate_schema_markup",
+      "heading_analysis"
+    ]
+  }
+}

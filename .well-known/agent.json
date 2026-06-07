@@ -1,0 +1,59 @@
+{
+  "name": "seo-checker-ai-mcp",
+  "description": "Seo Checker Ai MCP Server by MEOK AI Labs",
+  "url": "https://proofof.ai/scorecard/seo-checker-ai-mcp.html",
+  "version": "1.0.6",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "analyze_title",
+      "name": "Analyze Title",
+      "description": "analyze_title via seo-checker-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_meta_description",
+      "name": "Check Meta Description",
+      "description": "check_meta_description via seo-checker-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_schema_markup",
+      "name": "Validate Schema Markup",
+      "description": "validate_schema_markup via seo-checker-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "heading_analysis",
+      "name": "Heading Analysis",
+      "description": "heading_analysis via seo-checker-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
