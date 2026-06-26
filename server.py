@@ -1,4 +1,6 @@
 """
+Buy Pro: https://www.csoai.org/checkout
+
 SEO Checker AI MCP Server
 SEO analysis and optimization tools powered by MEOK AI Labs.
 """
