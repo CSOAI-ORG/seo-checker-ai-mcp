@@ -12,7 +12,7 @@ from auth_middleware import check_access
 import re
 import time
 from collections import defaultdict
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer as FastMCP  # mcp 2.x: FastMCP renamed MCPServer
 import urllib.request as _meter_urlreq
 import urllib.error as _meter_urlerr
 
